@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9645eabee56f56c8c0c4889a70fa0d6",
-    "content-hash": "6b99a7f10efd1d87ef3edda17fdac9be",
+    "hash": "10120f1ca59cd404fec106be5d78ecdf",
+    "content-hash": "275bfadc46be07924614aca6a6470cfc",
     "packages": [
         {
             "name": "alexgarrett/violin",
@@ -177,16 +177,16 @@
         },
         {
             "name": "hassankhan/config",
-            "version": "0.10.0",
+            "version": "0.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hassankhan/config.git",
-                "reference": "06ac500348af033f1a2e44dc357ca86282626d4a"
+                "reference": "42ba051954745b565306f0f82c57814f54579f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hassankhan/config/zipball/06ac500348af033f1a2e44dc357ca86282626d4a",
-                "reference": "06ac500348af033f1a2e44dc357ca86282626d4a",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/42ba051954745b565306f0f82c57814f54579f8d",
+                "reference": "42ba051954745b565306f0f82c57814f54579f8d",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2016-02-11 16:21:17"
+            "time": "2015-03-21 11:21:39"
         },
         {
             "name": "illuminate/container",

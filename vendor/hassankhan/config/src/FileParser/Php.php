@@ -44,7 +44,7 @@ class Php implements FileParserInterface
         }
 
         // Check for array, if its anything else, throw an exception
-        if (!is_array($temp)) {
+        if (!$temp || !is_array($temp)) {
             throw new UnsupportedFormatException('PHP file does not return an array');
         }
 

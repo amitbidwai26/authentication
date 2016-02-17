@@ -21,13 +21,6 @@ abstract class AbstractFileParser implements FileParserInterface
      */
     protected $path;
 
-    /**
-     * Sets the path to the config file
-     *
-     * @param string $path
-     *
-     * @codeCoverageIgnore
-     */
     public function __construct($path)
     {
         $this->path = $path;
