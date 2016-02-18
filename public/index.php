@@ -1,8 +1,10 @@
 <?php
+//echo 'before require';
+require "../app/start.php";
+//echo  ' <br> after require index page';
 
-require "../app/start.php"
-
-
-
+$app->run(); 
 
 ?>
+
+
